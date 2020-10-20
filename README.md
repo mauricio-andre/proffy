@@ -51,7 +51,19 @@ Abra o terminal no diretório do projeto e execute `yarn` para baixar as depend�
 * Abra o aplicativo Expo em seu smartphone e leia o QrCode apresentado na tela do seu navegador anteriormente
 
 ## Testando as rotas
+
 Dentro da pasta *server* ha outro diretório chamado [client](server/client), esse diretório contém arquivos com estruturas de requisição http, se você estiver usando o editor vsCode, pode baixar a extensão **REST Client** e enviar as requisições diretamente do seu editor.
+
+### Layout
+
+O layout dessa aplicação foi projetada no [Figma](https://www.figma.com/), você pode baixar os arquivo de layout clicando nos links abaixo:
+
+[Proffy Web](.github/ProffyWeb.fig) \
+[Proffy Mobile](.github/ProffyMobile.fig)
+
+### Desafios
+
+O projeto atual encontras-se na versão 1.0 e representa o desenvolvimento realizado durante as aulas da NLW 02, ao final das aulas, um conjunto de desafios foi apresentado, estes desafios podem ser consultados [aqui](.github/Proffy-2.0.pdf). Faça o fork desse projeto e realize as etapas do desafio para elevar essa aplicação ao proxímo nível.
 
 ## Licença
 
