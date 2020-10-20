@@ -1,0 +1,10 @@
+### Criação de conexões
+POST http://localhost:3333/connections HTTP/1.1
+Content-Type: application/json
+
+{
+  "userId": 1
+}
+
+### Consulta de conexões
+GET http://localhost:3333/connections HTTP/1.1

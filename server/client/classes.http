@@ -1,0 +1,20 @@
+### Criação de classes
+POST http://localhost:3333/classes HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Mauricio R André",
+  "avatar": "https://avatars0.githubusercontent.com/u/60571703",
+  "whatsapp": "47999999999",
+  "bio": "Exemplo de biográfia delicinha",
+  "subject": "Matemática",
+  "cost": 80,
+  "schedule": [
+    { "weekDay": 1, "from": "8:00", "to": "12:00" },
+    { "weekDay": 3, "from": "10:00", "to": "18:00" },
+    { "weekDay": 4, "from": "8:00", "to": "12:00" }
+  ]
+}
+
+### Consulta de classes
+GET http://localhost:3333/classes?weekDay=1&subject=Matemática&time=11:00 HTTP/1.1
